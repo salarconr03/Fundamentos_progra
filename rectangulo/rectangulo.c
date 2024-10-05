@@ -1,6 +1,8 @@
 #include <stdio.h> 
 #include <math.h>
 
+#define NUMERO_DE_LADOS 4
+
 void main(){
     //variables para el rectangulo
     float base = 0;
