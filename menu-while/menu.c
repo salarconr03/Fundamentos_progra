@@ -12,35 +12,35 @@ int main(){
         scanf("%d", &seleccion);
 
         switch (seleccion){
-        case 1:
-            while (par <= 100){
-                printf("%d\n", par);
-                par += 2;
-            }
-            par = 0;
-            break;
-        case 2:
-            while (inpar < 100){
-                printf("%d\n", inpar);
-                inpar += 2;
-            }
-            inpar = 1;
-            break;
-        case 3:
-            while (par < 100){
-                par++;
-                suma += par;
-                printf("%d \n", suma);
-            }
-            par = 0;
-            suma = 0;
-            break;
-        case 4:
-            menu++;
-            break;
-        default:
-            printf("Por favor escoja una de las opciones proporcionadas.\n");
-            break;
+            case 1:
+                while (par <= 100){
+                    printf("%d\n", par);
+                    par += 2;
+                }
+                par = 0;
+                break;
+            case 2:
+                while (inpar < 100){
+                    printf("%d\n", inpar);
+                    inpar += 2;
+                }
+                inpar = 1;
+                break;
+            case 3:
+                while (par < 100){
+                    par++;
+                    suma += par;
+                    printf("%d \n", suma);
+                }
+                par = 0;
+                suma = 0;
+                break;
+            case 4:
+                menu++;
+                break;
+            default:
+                printf("Por favor escoja una de las opciones proporcionadas.\n");
+                break;
         }
     }
     
