@@ -3,8 +3,8 @@
 
 int main(){
     char materias[5][5][5];
-    char *dias[5] = {"lunes", "martes", "miercoles", "jueves", "viernes"};
-    char *horas[5] = {"8: 00", "9: 00", "10: 00", "11: 00", "12: 00"};
+    char dias[5][10] = {"lunes", "martes", "miercoles", "jueves", "viernes"};
+    char horas[5][10] = {"8: 00", "9: 00", "10: 00", "11: 00", "12: 00"};
     char mat[5];
 
     for (int i = 0; i < 5; i++){
@@ -21,7 +21,7 @@ int main(){
     for(int i = 0; i < 5; i++){
         printf("%-15s", horas[i]);
         for(int j = 0; j < 5; j++){
-            printf(" %-15s", materias[j][i]);
+            printf(" %-15s", materias[i][j]);
         }
         printf("\n");
     }

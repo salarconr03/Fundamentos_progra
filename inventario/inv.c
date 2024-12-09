@@ -6,8 +6,8 @@ int main(){
     int prod = 0;
     int total = 0;
 
-    char *categorias[3] = {"electronica", "ropa", "alimentos"};
-    char *lugares[3] = {"almacen", "piso de ventas", "en reparacion"};
+    char categorias[3][15] = {"electronica", "ropa", "alimentos"};
+    char lugares[3][15] = {"almacen", "piso de ventas", "en reparacion"};
 
     for(int i = 0; i < 3; i++){
         for(int j = 0; j < 3; j++){
